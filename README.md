@@ -1,11 +1,7 @@
 
 # personal-website  
-The repository of my personal website hosted by react!  
-The first version of my personal website made using react for the first time.
+First version of my personal website leveraging react!
 =======
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
