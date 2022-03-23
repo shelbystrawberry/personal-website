@@ -1,5 +1,87 @@
 @import "../../global.scss";
 
+
 .home{
     background-color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-top: 15%;
+    min-height: 100vh;
 }
+
+.imgContainer{
+    width: 150px;
+    height: 150px;
+    background-color: $greenColor;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+
+    img{
+        height: 100%;
+    }
+}
+
+.Typist {
+    color: $textColor;
+    text-align: center;
+    font-size: 38px;
+    margin-top: 30px;
+    letter-spacing: -2px;
+}
+
+.Typist .Cursor {
+    color: $greenColor;
+    font-size: 50px;
+    margin-left: -5px;
+    margin-bottom: -15px;
+    overflow: hidden;
+}
+
+.intro-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+}
+
+.intro-name {
+    font-family: 'Space Mono', monospace;
+    color: $greenColor;
+    font-weight: bold;
+    font-size: 48px;
+}
+.intro-subtitle {
+    font-family: 'Space Mono', monospace;
+    color: $textColor;
+    font-weight: 200;
+    font-size: 35px;
+    padding-top: 20px;
+  }
+  
+  .intro-desc {
+    color: $textColor;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    max-width: 55%;
+    padding-bottom: 50px;
+  }
+  
+  .intro-contact {
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    padding: 20px 20px;
+    border: 1px solid $greenColor;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 15px;
+    color: $greenColor;
+
+    .mail-icon{
+        margin-bottom: -5px;
+    }
+  }
+  
+  .intro-contact:hover {
+    background-color: $lightNavy;
+  }
