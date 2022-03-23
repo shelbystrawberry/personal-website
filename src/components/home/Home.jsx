@@ -23,7 +23,7 @@ export default function Home() {
             </Typist>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a software engineer student based in Raleigh, NC. I have profound
+            I'm a software engineering student based in Raleigh, NC. I have profound
             interest in full-stack development.
           </div>
           <a href="mailto:gazi.jarin@mail.utoronto.ca" className="intro-contact">
