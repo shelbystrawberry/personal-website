@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className="home" id="home">
             <div className="imgContainer">
-                <img src="assets/pfp.png" alt=""></img>
+            <img src="assets/pfp.png" alt=""></img>
             </div>
             <Typist avgTypingDelay={120}>
                 <span className="intro-title">
@@ -21,15 +21,19 @@ export default function Home() {
                     {" here."}
                 </span>
             </Typist>
-          <div className="intro-subtitle">I create stuff sometimes.</div>
-          <div className="intro-desc">
-            I'm a software engineering student based in Raleigh, NC. I have a profound
-            interest in full-stack development.
-          </div>
-          <a href="mailto:gazi.jarin@mail.utoronto.ca" className="intro-contact">
-            <EmailRoundedIcon className="mail-icon"></EmailRoundedIcon>
-            {"  " + "Say hello"}
-          </a>
+            <div className="intro-subtitle">I create stuff sometimes.</div>
+            <div className="intro-desc">
+                I'm a software engineering student based in Raleigh, NC. I have a profound
+                interest in full-stack development.
+            </div>
+            <div className="intro-contact-desc">
+            I'm interested in freelance opportunities.
+                If you have any requests or questions, don't hesitate to contact me.
+            </div>
+            <a href="mailto:shelbsgt500@gmail.com" className="intro-contact">
+                <EmailRoundedIcon className="mail-icon"></EmailRoundedIcon>
+                {"  Say hello"}
+            </a>
         </div>
 
     )
