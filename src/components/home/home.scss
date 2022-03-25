@@ -6,8 +6,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 15%;
-    padding-top: 15%;
     min-height: 100vh;
 }
 
@@ -70,11 +68,10 @@
   .intro-contact {
     font-size: 20px;
     font-family: 'Space Mono', monospace;
-    padding: 20px 20px;
     border: 1px solid $greenColor;
     cursor: pointer;
-    text-decoration: none;
     border-radius: 15px;
+    text-decoration: none;
     color: $greenColor;
 
     .mail-icon{
@@ -91,3 +88,59 @@
   .intro-contact:hover {
     background-color: $lightNavy;
   }
+
+@media only screen and (min-width: 601px) {
+    .home{
+        padding-left: 15%;
+        padding-top: 5%;
+    }
+    .intro-contact{
+            padding: 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home{
+        align-items: center;
+        padding-top: 15%;
+    }
+
+    .intro-title {
+        font-size: 36px;
+    }
+
+    .intro-name {
+        font-size: 36px;
+    }
+
+    .Typist {
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .intro-subtitle {
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .intro-desc {
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .intro-contact-desc{
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .intro-contact {
+        font-size: 14px;
+        align-self: center;
+        padding: 15px 15px;
+
+    }
+}
