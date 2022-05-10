@@ -27,7 +27,7 @@ export default function Home() {
                 interest in full-stack development.
             </div>
             <div className="intro-contact-desc">
-            I'm interested in freelance opportunities.
+            I'm interested in full-stack development opportunities.
                 If you have any requests or questions, don't hesitate to contact me.
             </div>
             <a href="mailto:shelbsgt500@gmail.com" className="intro-contact">
