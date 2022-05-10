@@ -3,3 +3,71 @@
 .about{
     background-color: $mainColor;
 }
+
+.about-banner {
+    font-family: 'Space Mono', monospace;
+    color: $greenColor;
+}
+
+.about-body {
+
+    .about-left {
+        font-family: 'Space Mono', monospace;
+        color: $textColor;
+    }
+    .about-right {
+        width: 80%;
+        .me-jpg {
+            width: 80%;
+            max-height: 60%;
+            object-fit: contain;
+            float: right;
+        }
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .about-banner {
+        padding: 150px 64px 0px;
+        font-size: 48px;
+    }
+    .about-body {
+        margin: 32px 180px 0px 32px;
+        display: flex;
+        .about-left {
+            padding: 20px;
+            flex: 0.6;
+            font-size: 20px;
+        }
+        .about-right {
+            flex: 0.4;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about{
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-banner {
+        text-align: center;
+        padding-top: 15%;
+    }
+    .about-body {
+        font-size: 14px;
+    }
+    .about-left {
+        text-align: center;
+        padding: 15px 30px;
+
+    }
+    .about-right {
+        align-self: center;
+        .me-jpg {
+            width: 50%;
+            height: 30vh;
+            object-fit: contain;
+        }
+    }
+}
