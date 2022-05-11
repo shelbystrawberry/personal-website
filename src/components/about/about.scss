@@ -28,8 +28,8 @@
 
 @media only screen and (min-width: 601px) {
     .about-banner {
-        padding: 150px 64px 0px;
-        font-size: 48px;
+        padding: 120px 64px 0px;
+        font-size: 32px;
     }
     .about-body {
         margin: 32px 180px 0px 32px;
@@ -37,7 +37,32 @@
         .about-left {
             padding: 20px;
             flex: 0.6;
-            font-size: 20px;
+            font-size: 14px;
+
+            .about-skills {
+                padding-top: 25px;
+                color: $textColor;
+                font-size: 12px;
+            }
+            .skill-list {
+                padding-top: 15px;
+                font-size: 12px;
+                padding-left: 0px;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(150px, 10px));
+                color: $greenColor;
+                position: relative;
+            }
+
+            .skill-list li::before {
+                content: "▹  ";
+                left: 0;
+            }
+
+            .about-extra {
+                font-size: 12px;
+                padding-top: 15px;
+            }
         }
         .about-right {
             flex: 0.4;
@@ -53,16 +78,34 @@
     .about-banner {
         text-align: center;
         padding-top: 15%;
+        font-size: 18px;
     }
     .about-body {
-        font-size: 14px;
-    }
-    .about-left {
+        font-size: 12px;
+        padding: 20px 30px;
         text-align: center;
-        padding: 15px 30px;
-
+        .about-description {
+            padding-bottom: 15px;
+        }
+        .skill-list {
+            padding-top: 5px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(150px, 10px));
+            position: relative;
+            text-align: start;
+            color: $greenColor;
+        }
+        .skill-list li::before {
+            content: "▹  ";
+            left: 0;
+        }
+        .about-extra {
+            padding-top: 15px;
+        }
+        
     }
     .about-right {
+        padding-top: 24px;
         align-self: center;
         .me-jpg {
             width: 50%;
