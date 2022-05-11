@@ -4,18 +4,18 @@
     background-color: $mainColor;
 }
 
-.about-banner {
+.banner {
     font-family: 'Space Mono', monospace;
     color: $greenColor;
 }
 
-.about-body {
+.body {
 
-    .about-left {
+    .left {
         font-family: 'Space Mono', monospace;
         color: $textColor;
     }
-    .about-right {
+    .right {
         width: 80%;
         .me-jpg {
             width: 80%;
@@ -27,19 +27,19 @@
 }
 
 @media only screen and (min-width: 601px) {
-    .about-banner {
+    .banner {
         padding: 120px 64px 0px;
         font-size: 32px;
     }
-    .about-body {
+    .body {
         margin: 32px 180px 0px 32px;
         display: flex;
-        .about-left {
+        .left {
             padding: 20px;
             flex: 0.6;
             font-size: 14px;
 
-            .about-skills {
+            .skills {
                 padding-top: 25px;
                 color: $textColor;
                 font-size: 12px;
@@ -59,12 +59,12 @@
                 left: 0;
             }
 
-            .about-extra {
+            .extra {
                 font-size: 12px;
                 padding-top: 15px;
             }
         }
-        .about-right {
+        .right {
             flex: 0.4;
         }
     }
@@ -75,12 +75,12 @@
         align-items: center;
         flex-direction: column;
     }
-    .about-banner {
+    .banner {
         text-align: center;
         padding-top: 15%;
         font-size: 18px;
     }
-    .about-body {
+    .body {
         font-size: 12px;
         padding: 20px 30px;
         text-align: center;
@@ -99,12 +99,12 @@
             content: "▹  ";
             left: 0;
         }
-        .about-extra {
+        .extra {
             padding-top: 15px;
         }
         
     }
-    .about-right {
+    .right {
         padding-top: 24px;
         align-self: center;
         .me-jpg {
