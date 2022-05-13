@@ -1,5 +1,5 @@
-import "./creations.scss"
-import { useEffect, useState } from "react"
+import "./creations.scss";
+import { creations } from "../../data";
 
 export default function Portfolio() {
   return (
@@ -8,10 +8,17 @@ export default function Portfolio() {
           /portfolio
         </div>
         <div className="container">
-          <div className="item">
-            <img src="https://www.tompetty.com/sites/g/files/g2000007521/f/Sample-image10-highres.jpg" alt=""></img>
-            <h3>react-portfolio</h3>
-          </div>
+          {creations.map((d) => (
+            <div className="whole-item">
+              <a href={d.link} target="_blank">
+              <div className="item">
+                <img src={d.img} alt=""></img>
+                <h3>{d.title}</h3>
+              </div>
+              </a>
+              <span>{d.desc}</span>
+            </div>
+          ))}
         </div>
     </div>
   )
