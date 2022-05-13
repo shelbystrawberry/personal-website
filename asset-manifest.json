@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.d1a2def9.css",
-    "main.js": "/personal-website/static/js/main.2b5a3544.js",
-    "index.html": "/personal-website/index.html",
-    "main.d1a2def9.css.map": "/personal-website/static/css/main.d1a2def9.css.map",
-    "main.2b5a3544.js.map": "/personal-website/static/js/main.2b5a3544.js.map"
+    "main.css": "/realshelby.me/static/css/main.d1a2def9.css",
+    "main.js": "/realshelby.me/static/js/main.2b5a3544.js",
+    "index.html": "/realshelby.me/index.html",
+    "main.d1a2def9.css.map": "/realshelby.me/static/css/main.d1a2def9.css.map",
+    "main.2b5a3544.js.map": "/realshelby.me/static/js/main.2b5a3544.js.map"
   },
   "entrypoints": [
     "static/css/main.d1a2def9.css",
