@@ -9,24 +9,11 @@
     min-height: 100vh;
 }
 
-.imgContainer{
-    width: 150px; 
-    height: 150px;
-    background-color: $greenColor;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-
-    img{
-        height: 100%;
-    }
-}
-
 .Typist {
     color: $textColor;
     text-align: center;
     font-size: 38px;
-    margin-top: 30px;
+    margin-top: 10px;
     letter-spacing: -2px;
 }
 
@@ -53,8 +40,9 @@
     font-family: 'Space Mono', monospace;
     color: $textColor;
     font-weight: 200;
-    font-size: 35px;
-    padding-top: 20px;
+    font-size: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   
   .intro-desc {
@@ -92,7 +80,7 @@
 @media only screen and (min-width: 601px) {
     .home{
         padding-left: 15%;
-        padding-top: 5%;
+        padding-top: 20vh;
     }
     .intro-contact{
             padding: 20px 20px;

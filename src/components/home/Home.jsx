@@ -9,9 +9,6 @@ import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 export default function Home() {
     return (
         <div className="home" id="home">
-            <div className="imgContainer">
-            <img src="assets/pfp.png" alt=""></img>
-            </div>
             <Typist avgTypingDelay={120}>
                 <span className="intro-title">
                     {"hi, "}
