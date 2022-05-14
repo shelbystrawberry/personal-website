@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/favicon.ico" />
+  <img src="public/favicon.ico" width="100px" height="100px" />
 </p>
 <h1 align="center">
   realshelby.me - v1
