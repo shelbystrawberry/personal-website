@@ -5,6 +5,6 @@
   realshelby.me - v1
 </h4>
 <p align="center">
-  The first iteration of <a href="realshelby.me" target="_blank">realshelby.me</a>
+  The first iteration of <a href="http://realshelby.me" target="_blank">realshelby.me</a>
   built with React.js leveraging Material UI.
 </p>
