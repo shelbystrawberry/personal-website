@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
+  <img src="public/favicon.ico" />
 </p>
 <h1 align="center">
   realshelby.me - v1
