@@ -37,7 +37,7 @@ export default function About() {
           <div className="extra">
             Outside of school and work, I approach side projects like 
             this portfolio and I follow the developments of science. 
-            I sometimes play video games and drive around in my car in 
+            I sometimes play video games and drive around in my car on 
             the weekends. 
           </div>
         </div>

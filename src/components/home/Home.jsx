@@ -18,7 +18,7 @@ export default function Home() {
                     {" here."}
                 </span>
             </Typist>
-            <div className="intro-subtitle">I create stuff sometimes.</div>
+            <div className="intro-subtitle">I create stuff.</div>
             <div className="intro-desc">
                 I'm a software engineering student based in Raleigh, NC. I have a profound
                 interest in full-stack development.
