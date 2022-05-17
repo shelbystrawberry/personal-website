@@ -27,7 +27,7 @@ export default function Home() {
             I'm interested in full-stack development opportunities.
                 If you have any requests or questions, don't hesitate to contact me.
             </div>
-            <a href="mailto:shelbsgt500@gmail.com" className="intro-contact">
+            <a href="mailto:shelbyy.herrera@gmail.com" className="intro-contact">
                 <EmailRoundedIcon className="mail-icon"></EmailRoundedIcon>
                 {"  Say hello"}
             </a>

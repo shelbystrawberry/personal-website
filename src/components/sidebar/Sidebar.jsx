@@ -20,7 +20,7 @@ export default function Sidebar() {
                 </ul>
             </div>
             <div className="sidebar-logos" href="/">
-                <a href="mailto:shelbsgt500@gmail.com">
+                <a href="mailto:shelbyy.herrera@gmail.com">
                     <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
                 </a>
                 <a href="https://github.com/shelbystrawberry">
